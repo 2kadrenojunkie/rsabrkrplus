@@ -16,8 +16,8 @@ prime=0
 prime_buffer=[1,3]
 while(i<n):
   j=1
-  while(j<i):
-    j+=4
+  while(j<i//2):
+    j+=2
     if(i%j == 0):
       prime=1
       break
