@@ -1,0 +1,16 @@
+
+the why
+
+major governments and other high budget institutions are the only ones with the capability of creating sophisticated quantum computers which eventually will be able to run something like shors algorithm to make current rsa encryption worthless. this is bad for the everyday citizen because of a combination of a reliance on the internet, laws that could be used to incriminate pretty much anyone using the internet given they had proof, and a monopoly of potential bad actors with no immediate defense mechanisms. 
+
+the what
+exploring different ways to deter quantum attacks besides computational complexity, as well as arming ourselves with the ability to counterattack. 
+
+for the former, computers will continue to evolve and attacks will mirror this. if we patch against quantum and binary computers what if a new type comes out that can beat both easily, say a 12th dimensional hypercluster or something? what if say a computer large enough to cover the entire surface of mars were to be built? these possibilities need to be explored.
+
+for the latter, there exists a pretty straightforward way to accomplish this using pretty old technology: a hashmap table and the torrent protocol.
+in theory you could calculate every prime under (2^n)/2 then multiply every combination together to form every possible public key.
+
+
+the when
+this will be mostly dependent on everyone else who decides to/decides not to contribute. 
