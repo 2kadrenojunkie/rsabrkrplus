@@ -18,7 +18,7 @@ the values generated will all be multiplied with every preceeding value, stored 
 once a large enough batch is made a program to utilize the lookup table should be implemented. currently i am planning to do this once i have calculated all the primes up to unsigned 256bit integer limit.
 magnets for the files produced in increments of 1 000 000 000 in standard zip will be listed in torrents.txt for the initial test batch.
 
-as this is a community project more or less dm me your ideas and if they seem like they could possibly work or are at least worth considering i will at the very least mention them in the main branch. i intend to create a open community branch that anyone can edit eventually however i am currently new to making repos so i'll need to figure out how to do it first.
+as this is a community project more or less dm me your ideas or submit a pull request and if they seem like they could possibly work or are at least worth considering i will at the very least mention them in the main branch. i intend to create a open community branch that anyone can edit eventually however i am currently new to making repos so i'll need to figure out how to do it first.
 
 the when
 this will be mostly dependent on everyone else who decides to/decides not to contribute and whether or not github admins agree that this is a ethical project. 
