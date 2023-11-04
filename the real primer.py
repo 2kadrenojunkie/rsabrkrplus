@@ -1,3 +1,4 @@
+#uses python3, yes i know this code is terrible and only runs on one thread.
 
 n=2**2040//2
 print(n)
