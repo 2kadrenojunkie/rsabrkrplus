@@ -1,20 +1,21 @@
 
 the why
 
-major governments and other high budget institutions are the only ones with the capability of creating sophisticated quantum computers which eventually will be able to run something like shors algorithm to make current rsa encryption worthless. this is bad for the everyday citizen because of a combination of a reliance on the internet, laws that could be used to incriminate pretty much anyone using the internet given they had proof, and a monopoly of potential bad actors with no immediate defense mechanisms. 
+major governments and other high budget institutions are the only ones with the capability of creating sophisticated quantum computers which eventually will be able to run something like shors algorithm to make current rsa encryption worthless. this is bad for the everyday citizen because of a combination of a reliance on the internet, laws that could be used to incriminate pretty much anyone using the internet given they had proof, and a monopoly of potential bad actors with no immediate defense mechanisms. in addition it should be noted that even though the technology is supposedly not there yet they are currently storing data with the intention of breaking it once it is so this is far from being a distant concern.
 
 the what
 exploring different ways to deter quantum attacks besides computational complexity, as well as arming ourselves with the ability to counterattack. 
 
-for the former, computers will continue to evolve and attacks will mirror this. if we patch against quantum and binary computers what if a new type comes out that can beat both easily, say a 12th dimensional hypercluster or something? what if say a computer large enough to cover the entire surface of mars were to be built? these possibilities need to be explored.
+for the former, computers will continue to evolve and attacks will mirror this. if we patch against quantum and binary computers what if a new type comes out that can beat both easily, say a 12th dimensional hypercluster or something? what if say a computer large enough to cover the entire surface of mars were to be built? these possibilities need to be explored. i have not come up with any solid ideas yet however this is why i am making this project public in addition to the hope of people donating their resources to the cause.
 
 for the latter, there exists a pretty straightforward way to accomplish this using pretty old technology: a lookup table and the torrent protocol.
 in theory (and the way i intend to test in practice) you could calculate every prime under (2^n)/2 then multiply every combination together to form every possible public key with a n bit length. this would effectively make rsa encryption using public keys useless. problems with this approach include compute time and storage space needed. if everyone on earth used every smidge of storage they had access to we'd come pretty close to storing the 4080 bit limit, definitely could do the 2040 more realistically. parody data is a must however. in addition to this the compute time will be enormous. not quite as enormous as some people would like you to believe but it will take a long while.the way this would work in theory is first all the primes for the given range would need to be calculated. this is simple to do, however unless you are proficient in a faster/lower level language such as assembly, c, rust, etc it will be very inneficient/slow. asics could be developed as well. 
 
 current plan of action
 
-the prime values will be calculated and split if needed and labeled with the range they contain before being compressed with either zip or a specialized algorithm and published via torrent.
-then the values will all be multiplied with every preceeding value, split up, and published via torrent.
+the prime values will be calculated into plain text, split, then labeled with the range they contain before being compressed with either zip or a specialized algorithm before finally published via torrent.
+the values generated will all be multiplied with every preceeding value, stored in plaintext (with a wip format of public key = firstprime*secondprime), split up plus labeled for range, compressed with either zip or a specialized algorithm, and finally published via torrent.
+once a large enough batch is made a program to 
 
 
 the when
