@@ -13,7 +13,7 @@ for line in nums:
     break
   elif int(line)>num:
       num=int(line)
-print("starting at"+str(num))
+print("starting at "+str(num))
 nums.close()
 i=num
 #integer used as if a boolean. represents if the number is prime or not
