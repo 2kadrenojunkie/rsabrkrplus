@@ -2,3 +2,4 @@ make script to split up text files
 rewrite optimized prime calculator with multithreading support
 calculate all primes up to 256 bit integer
 make basic test script for a proof of concept using a 256 bit integer and measure factoring time complexity compared to non-precalculated brute forcing
+find a way to move donations file out of the way while still being accessible for those who want to use it
