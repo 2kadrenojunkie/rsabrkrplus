@@ -8,9 +8,14 @@ exploring different ways to deter quantum attacks besides computational complexi
 
 for the former, computers will continue to evolve and attacks will mirror this. if we patch against quantum and binary computers what if a new type comes out that can beat both easily, say a 12th dimensional hypercluster or something? what if say a computer large enough to cover the entire surface of mars were to be built? these possibilities need to be explored.
 
-for the latter, there exists a pretty straightforward way to accomplish this using pretty old technology: a hashmap table and the torrent protocol.
-in theory you could calculate every prime under (2^n)/2 then multiply every combination together to form every possible public key.
+for the latter, there exists a pretty straightforward way to accomplish this using pretty old technology: a lookup table and the torrent protocol.
+in theory (and the way i intend to test in practice) you could calculate every prime under (2^n)/2 then multiply every combination together to form every possible public key with a n bit length. this would effectively make rsa encryption using public keys useless. problems with this approach include compute time and storage space needed. if everyone on earth used every smidge of storage they had access to we'd come pretty close to storing the 4080 bit limit, definitely could do the 2040 more realistically. parody data is a must however. in addition to this the compute time will be enormous. not quite as enormous as some people would like you to believe but it will take a long while.the way this would work in theory is first all the primes for the given range would need to be calculated. this is simple to do, however unless you are proficient in a faster/lower level language such as assembly, c, rust, etc it will be very inneficient/slow. asics could be developed as well. 
+
+current plan of action
+
+the prime values will be calculated and split if needed and labeled with the range they contain before being compressed with either zip or a specialized algorithm and published via torrent.
+then the values will all be multiplied with every preceeding value, split up, and published via torrent.
 
 
 the when
-this will be mostly dependent on everyone else who decides to/decides not to contribute. 
+this will be mostly dependent on everyone else who decides to/decides not to contribute and whether or not github admins agree that this is a ethical project. 
